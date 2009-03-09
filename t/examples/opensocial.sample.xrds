@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<XRDS xmlns="xri://$xrds">
+    <XRD xmlns:simple="http://xrds-simple.net/core/1.0" xmlns="xri://$XRD*($v*2.0)" xmlns:os="http://ns.opensocial.org/2008/opensocial" version="2.0">
+        <Type>xri://$xrds*simple</Type>
+        <Service>
+          <Type>http://ns.opensocial.org/2008/opensocial/people</Type>
+          <os:URI-Template>http://api.example.org/people/{guid}/{selector}{-prefix|/|pid}</os:URI-Template>
+        </Service>
+        <Service>
+          <Type>http://ns.opensocial.org/2008/opensocial/groups</Type>
+          <os:URI-Template>http://api.example.org/groups/{guid}</os:URI-Template>
+        </Service>
+        <Service>
+          <Type>http://ns.opensocial.org/2008/opensocial/activities</Type>
+          <os:URI-Template>http://api.example.org/activities/{guid}/{appid}/{selector}</os:URI-Template>
+        </Service>
+        <Service>
+          <Type>http://ns.opensocial.org//2008/opensocial/appdata</Type>
+          <os:URI-Template>http://api.example.org/appdata/{guid}/{appid}/{selector}</os:URI-Template>
+        </Service>
+        <Service>
+          <Type>http://ns.opensocial.org//2008/opensocial/messages</Type>
+          <os:URI-Template>http://api.example.org/messages/{guid}/{selector}</os:URI-Template>
+        </Service>
+    </XRD>
+</XRDS>
