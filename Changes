@@ -1,4 +1,6 @@
 Revision history for Perl extension XRDS::Simple
 
+0.02  Tue Mar 10 23:19:12 2009
+        - Upload CPAN via ShipIt
 0.01  Fri Feb 27 23:33:37 2009
         - original version
