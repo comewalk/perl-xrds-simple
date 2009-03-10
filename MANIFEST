@@ -1,4 +1,6 @@
 Changes
+examples/bench_parser.t
+examples/client.t
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
@@ -21,6 +23,19 @@ MANIFEST			This list of files
 META.yml
 README
 t/00_compile.t
+t/01_discovery.t
+t/02_fetch.t
+t/03_parse.t
+t/04_process.t
+t/examples/fireeagle.yahoo.xrds
+t/examples/google.openid.xrds
+t/examples/meta.html
+t/examples/opensocial.sample.xrds
+t/examples/partuza.xrds
+t/examples/xrds.xml
+t/examples/yahoo.openid.xrds
 xt/perlcritic.t
 xt/pod.t
+xt/podcoverage.t
 xt/podspell.t
+xt/synopsis.t
